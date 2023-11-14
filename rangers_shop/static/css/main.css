@@ -2,11 +2,11 @@
 
 
 .shop-header {
-    display: block;
+     /* display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100%; 
-    background-image: url("../images/Pack.jpeg");
+    width: 100%; */
+    background-image: url("../images/beaut.JPG");
     background-size: cover;
     height: 700px;
     color: white; 
