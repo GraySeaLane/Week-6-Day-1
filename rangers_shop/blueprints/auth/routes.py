@@ -41,6 +41,7 @@ def signup():
         #we can now instantiate a new user object!!!
         
         user = User(username, email, password, first_name, last_name) 
+        print(user)
 
         #now we can add our user object to our database
         db.session.add(user) #think of this like "git add ."
@@ -50,7 +51,7 @@ def signup():
         flash(f"You have successfully registered user {username}", category='success')
         return redirect('/signin')
     
-    return render_template('sign_up.html', form=registerform )
+    return render_template('sign_up.html', form=registerform)
 
 
 @auth.route('/signin', methods=['GET', 'POST'])
