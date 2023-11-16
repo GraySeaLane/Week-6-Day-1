@@ -37,7 +37,7 @@
                     <li class="list-group-item">Price: {{ product.price }}</li>
                     <li class="list-group-item">Quantity: {{ product.quantity }}</li>
                     {% if product.quantity <= 8 %}
-                        <span class='err-msg btn-warning p-2 opacity-50 rounded'> ALERT: Quantity is Low </span>
+                        <span class='err-msg btn-warning p-2 opacity-50 rounded'> ALERT: Quantity is Low, please reorder </span>
                     {% endif %}
                 </ul>
                 <div class="mt-2">
