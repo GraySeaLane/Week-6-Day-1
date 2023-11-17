@@ -3,3 +3,5 @@ rangers_env
 migrations
 __pycache__
 image_cache.sqlite
+requirements.txt
+
